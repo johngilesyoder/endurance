@@ -3,11 +3,11 @@
 <!--[if IE 7 ]>    <html lang="en" class="ie ie7"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en" class="ie ie8"> <![endif]-->
 <!--[if IE 9 ]>    <html lang="en" class="ie ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html style="margin-top: 0 !important;" lang="en" class="no-js"> <!--<![endif]-->
 	<head>
 
 	    <meta charset="<?php bloginfo( 'charset' ); ?>" />
-	    <title<?php bloginfo( 'name' ); ?><?php wp_title( '|' ); ?>title>
+	    <title><?php bloginfo( 'name' ); ?><?php wp_title( '|' ); ?></title>
 	    <meta name="description" content="####">
 	    <meta name="keywords" content="####">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -27,8 +27,8 @@
 	                                     <link rel="shortcut icon" href="/assets/ico/favicon.png">
 	  
 	    <!-- Typekit -->
-	    <!--<script type="text/javascript" src="//use.typekit.net/qwk1jjl.js"></script>
-	    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>-->
+	    <script type="text/javascript" src="//use.typekit.net/qbg8rta.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	  
 	    <!--[if (gte IE 6)&(lte IE 8)]>
 	      <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>

@@ -8,3 +8,41 @@
 
 
 
+// Typography
+// -------------------------
+@sansFontFamily:        "ff-tisa-sans-web-pro", Helvetica, Arial, sans-serif;
+@serifFontFamily:       "ff-tisa-web-pro", "Times New Roman", Times, serif;
+
+@baseFontSize:          14px;
+@baseFontFamily:        @serifFontFamily;
+@baseLineHeight:        20px;
+@altFontFamily:         @serifFontFamily;
+
+@headingsFontFamily:    @sansFontFamily; // empty to use BS default, @baseFontFamily
+@headingsFontWeight:    bold;    // instead of browser default, bold
+@headingsColor:         inherit; // empty to use BS default, @textColor
+
+
+// Buttons
+// -------------------------
+@btnBackground:                     @white;
+@btnBackgroundHighlight:            darken(@white, 10%);
+@btnBorder:                         #bbb;
+
+@btnPrimaryBackground:              #73ca00;
+@btnPrimaryBackgroundHighlight:     #4ab000;
+
+@btnInfoBackground:                 #5bc0de;
+@btnInfoBackgroundHighlight:        #2f96b4;
+
+@btnSuccessBackground:              #62c462;
+@btnSuccessBackgroundHighlight:     #51a351;
+
+@btnWarningBackground:              lighten(@orange, 15%);
+@btnWarningBackgroundHighlight:     @orange;
+
+@btnDangerBackground:               #ee5f5b;
+@btnDangerBackgroundHighlight:      #bd362f;
+
+@btnInverseBackground:              #444;
+@btnInverseBackgroundHighlight:     @grayDarker;

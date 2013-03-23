@@ -7,6 +7,38 @@
 @import "../global/lib/variables.less";
 @import "../global/variables.less";
 
-header {
+body {
+	padding-top: 56px !important;
+}
 
+.navbar {
+	font-family: @sansFontFamily;
+	.brand {
+		padding: 0;
+		margin-left: 20px;
+		margin-right: 20px;
+		img {
+
+		}
+	}
+	.navbar-inner {
+		height: 56px;
+		.container {
+			height: 56px;
+			ul {
+				li {
+					a {
+						line-height: 36px;
+						font-size: 18px;
+					}
+				}
+			}
+			.btn-primary {
+				margin-top: 13px;
+				padding: 6px 13px 4px;
+				font-size: 16px;
+				.box-shadow(~"inset 0 1px 0 rgba(255,255,255,.2),0 1px 2px #000");
+			}
+		}
+	}
 }
