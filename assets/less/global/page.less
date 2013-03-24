@@ -8,3 +8,31 @@
 @import "../global/lib/variables.less";
 @import "../global/variables.less";
 
+
+
+section {
+	margin-bottom: 50px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid #e6e6e6;
+	display: block;
+	position: relative;
+	.clearfix();
+	&:before {
+	    display:block; 
+	    content:""; 
+	    height:100px; 
+	    margin:-100px 0 0; 
+	}
+	h2 {
+		text-align: center;
+		font-size: 50px;
+		font-weight: normal;
+		font-family: 'heading';
+		margin-bottom: 50px;
+		margin-top: 0;
+		sup {
+			font-size: 30px;
+			color: @gray;
+		}
+	}
+}

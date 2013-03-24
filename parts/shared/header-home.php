@@ -13,15 +13,15 @@
           <div class="nav-collapse collapse">
               <ul class="nav">
                 <li class="">
-                  <a href="<?php echo home_url(); ?>#about">About EH</a>
+                  <a href="#about">About EH</a>
                 </li>
                 <li class="">
-                  <a href="<?php echo home_url(); ?>/#theCamps">The Camps</a>
+                  <a href="#theCamps">The Camps</a>
                 </li>
                 <li class="">
-                  <a href="<?php echo home_url(); ?>/#aboutChris">About Chris</a>
+                  <a href="#aboutChris">About Chris</a>
                 </li>
-                <li class="media-page-link">
+                <li class="">
                   <a href="/media">Media</a>
                 </li>
               </ul>

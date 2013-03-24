@@ -14,17 +14,17 @@
 	    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	  
 	    <!-- Styles -->
-	    <link href="<?php bloginfo('template_directory' ); ?>/assets/css/global/style.css" rel="stylesheet">
+	    <link href="<?php bloginfo('template_directory' ); ?>/assets/css/global/style.css?39228" rel="stylesheet">
 	  
 	    <!-- Modernizr -->
 	    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 	  
 	    <!-- Fav and touch icons -->
-	      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/ico/apple-touch-icon-144-precomposed.png">
-	      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/ico/apple-touch-icon-114-precomposed.png">
-	        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/ico/apple-touch-icon-72-precomposed.png">
-	                      <link rel="apple-touch-icon-precomposed" href="/assets/ico/apple-touch-icon-57-precomposed.png">
-	                                     <link rel="shortcut icon" href="/assets/ico/favicon.png">
+	      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php bloginfo('template_directory' ); ?>/assets/ico/apple-touch-icon-144-precomposed.png">
+	      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php bloginfo('template_directory' ); ?>/assets/ico/apple-touch-icon-114-precomposed.png">
+	        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php bloginfo('template_directory' ); ?>/assets/ico/apple-touch-icon-72-precomposed.png">
+	                      <link rel="apple-touch-icon-precomposed" href="<?php bloginfo('template_directory' ); ?>/assets/ico/apple-touch-icon-57-precomposed.png">
+	                                     <link rel="shortcut icon" href="<?php bloginfo('template_directory' ); ?>/assets/ico/favicon.ico">
 	  
 	    <!-- Typekit -->
 	    <script type="text/javascript" src="//use.typekit.net/qbg8rta.js"></script>
@@ -33,11 +33,12 @@
 	    <!--[if (gte IE 6)&(lte IE 8)]>
 	      <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
 	    <![endif]-->
-	  	<?php wp_head(); ?>
+
+	  	<?php wp_deregister_script('jquery');wp_head(); ?> 
 
 	</head>
 
-	<body <?php body_class(); ?>>
+	<body data-spy="scroll" data-target="#navbarExample" data-offset="60" <?php body_class(); ?>>
 		<!--[if lt IE 7]>
 			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 		<![endif]-->
